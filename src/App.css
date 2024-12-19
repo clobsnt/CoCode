@@ -18,14 +18,9 @@
   color: white; /* Text color when active */
 }
 
-/* hide the first child of the CodeMirror component 
-  to prevent the duplicate editor display */
-/* .react-codemirror2 > .CodeMirror:first-child { 
-  display: none; 
-} */
 
-/* 
-.App {
+
+/* .App {
   text-align: center;
 }
 

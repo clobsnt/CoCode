@@ -1,47 +1,29 @@
 # Front-end
 Using React.js 
-
-In the project directory, you can run
-
+In the project directory MY-APP, you can run
 ### `npm start`
-Runs the app in the development mode.\
+Runs the app in the development mode
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # Back-end
 Using Node.js and Express web framework to establish a server
-1. Necessary packages for backend
-`npm install express body-parser bcryptjs jsonwebtoken dotenv mongoose cors`
-### express: Web framework for Node.js
-### body-parser: Parses incoming request bodies
-### bcryptjs: For hashing passwords
-### jsonwebtoken: For generating authentication tokens
-### dotenv: For managing environment variables
-### mongoose: For MongoDB connection 
-### cors: For enabling cross-origin resource sharing
+In the backend directory MY-APP/backend, you can run
+### `node server.js`
+Start the server and connect to MongoDB 
+
+# MongoDB
+Install and start MongoDB on local machine
+After starting MongoDB, run queries via:
+1. Mongo Shell: `mongosh`
+2. MongoDB Compass - GUI (optional)
 
 # Test the Application
-1. Start MongoDB
+1. Start/Stop MongoDB
 `brew services start mongodb-community@8.0`
+`brew services stop mongodb-community@8.0`
 2. Start backend server port 4000
 `node server.js`
 3. Start React development server port 3000
 `npm start`
-
-
-# MongoDB
-### Start / Stop mongodb
-`brew services start mongodb-community@8.0`
-`brew services stop mongodb-community@8.0`
-
-### Run the Mongo Shell or MongoDB Compass (GUI)
-`mongosh`
-
-
-
-
-# References
-
-### Login source: 
-https://www.simplilearn.com/tutorials/reactjs-tutorial/login-page-in-reactjs -- issues, stop following this
 
 
